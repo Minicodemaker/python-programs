@@ -1,0 +1,56 @@
+from array import *
+
+
+vals= array('i',[3,9,-7,2,8,90,77])
+print(vals.buffer_info())
+vals.reverse()
+print(vals)
+print (vals[2])
+
+for i in vals:
+    print(i)
+
+for i in range(len(vals)):
+    print(vals[i])
+
+for i in range(7):
+    print(vals[i])
+
+char=array('u',['s','g','j'])
+print(char.typecode)
+for i in char:
+  print(i)
+
+
+vals= array('i',[3,9,-7,2,8,90,77])
+newarr=array(vals.typecode, (a for a in vals))
+print(newarr)
+
+for e in newarr:
+    print(e)
+
+
+
+values=array('i',[])
+
+n=int(input('enter the size of the array'))
+for i in range(n):
+    v=int(input('enter the value'))
+    values.append(v)
+
+print(values)
+
+
+
+vals= array('i',[3,9,-7,2,8,90,77])
+
+s= int(input("enter the value to be searched "))
+k=0
+for i in vals:
+    if i==s:
+        print(k)
+        break
+    k+=1
+
+or
+print(vals.index(s))

@@ -1,0 +1,25 @@
+
+num = int(input('enter a number'))
+print(num)
+for i in range(num):
+    print('hello')
+
+
+
+list=['23','33','56','66','77']
+for i in list:
+    print('candy')
+
+
+
+
+string='navin'
+for i in string:
+    print(i)
+
+
+
+for i in range(2,40,2):
+    
+    if i%5==0:
+        print(i)

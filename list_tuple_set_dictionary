@@ -1,0 +1,47 @@
+#tuple
+
+tuple = ('34','45','66','baby')
+print(tuple)
+print(tuple[0])
+x= tuple.count('34')
+print(x)
+i= tuple.index('66')
+print(i)
+
+
+#set
+
+set = {'2','45','43','78', 'jay'}
+print(set)
+
+
+#list
+
+list = ['2', '3', '4','navin','kiran']
+print(list[1])
+list.append(23)
+list.pop(1)
+list.remove('4')
+list.insert(2,77)
+del list[3:]
+list[0]='55'
+print(list)
+
+
+
+#input from the user
+exp= eval(input('enter the exp'))
+print (exp)
+ 
+
+#dictionary
+
+dict = {'navin':'2','kiran':'4','gagan':'5'}
+print(dict['navin'])
+print(dict.get('gagan'))
+dict['navin']='34'
+del dict['kiran']
+print(dict['navin'])
+dict['monica']='76'
+dict['nimu']='88'
+print(dict)
